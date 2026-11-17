@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>AI in Asset Management · TUM Interview Study</title>
+<meta name="description" content="Practitioner interview for the Advanced Seminar in Asset Management at TUM.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#080D18">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="fintech.css">
+<link rel="stylesheet" href="visuals.css">
+</head>
+<body class="theme-fintech">
+<div class="app">
+  <header class="topbar">
+    <div class="topbar-in">
+      <div class="brand"><span class="brand-mark">TUM</span><span class="brand-sub" id="brandSub"></span></div>
+      <div class="progress" id="progress" hidden>
+        <div class="segs" id="segs"></div>
+        <div class="plabel" id="plabel" aria-live="polite"></div>
+      </div>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="de" aria-pressed="false">DE</button>
+      </div>
+    </div>
+  </header>
+  <main class="stage" id="stage" tabindex="-1"></main>
+  <footer class="navbar" id="navbar" hidden></footer>
+  <div class="toast" id="toast" role="status"></div>
+  <div class="demo" id="demo" hidden></div>
+</div>
+<script src="config.js"></script>
+<script src="survey-data.js"></script>
+<script src="visuals.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
